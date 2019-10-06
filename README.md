@@ -43,5 +43,6 @@ To help gather information, the college's course info/homepage can be found here
     - learning process and resources
       - list linkedin learning as my lord and saviour
 - Footer
-    -      
+  - generic made by me kind of link
+  - also my social media handles  
 
