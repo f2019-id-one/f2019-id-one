@@ -9,7 +9,6 @@ header {
 	overflow: hidden;
 	background-color: #f1f1f1;
 	padding: 20px 10px;
-	width: 100%;
 }
  
 .header a {
@@ -33,7 +32,6 @@ header {
 	color: black;
 }
   
-
 .header a.active {
 	background-color: dodgerblue;
 	color: white;
@@ -53,14 +51,14 @@ header {
 	.header-right {
 		float: none;
 	}
-	body {
+	main {
 		width: 300px;
 	}
 }
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
-	body {
+	main {
 		width: 960px;
 		margin: 0 auto;
 	}
