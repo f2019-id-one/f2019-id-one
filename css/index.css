@@ -11,7 +11,17 @@ header {
 	padding: 20px 10px;
 	width: 100%;
 }
-  
+ 
+.header a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
   
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
@@ -42,12 +52,6 @@ header {
 		float: none;
 		display: block;
 		text-align: left;
-		color: black;
-		padding: 12px;
-		text-decoration: none;
-		font-size: 18px;
-		line-height: 25px;
-		border-radius: 4px;
 	}
 	.header-right {
 		float: none;
@@ -68,15 +72,4 @@ header {
 		width: 960px;
 		margin: 0 auto;
 	}
-
-	.header a {
-		float: left;
-		color: black;
-		text-align: center;
-		padding: 12px;
-		text-decoration: none;
-		font-size: 18px;
-		line-height: 25px;
-		border-radius: 4px;
-}
 }
