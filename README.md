@@ -23,10 +23,9 @@ To help gather information, the college's course info/homepage can be found here
 
 ## Content
 - Top Bar / Header
-   - Menu
-        - program description
-    - Search Bar
-    - Logo
+  - Menu
+  - Search Bar
+  - Logo
 - Main
   - Brief description about the program
     - for decription from website
@@ -46,3 +45,8 @@ To help gather information, the college's course info/homepage can be found here
   - generic made by me kind of link
   - also my social media handles  
 
+## Colours
+
+## Fonts
+
+## Spacing
