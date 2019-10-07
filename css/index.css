@@ -5,11 +5,6 @@
 	color: black;
 }
 
-body {
-	width: 960px;
-    margin: 0 auto;
-}
-
 header {
 	overflow: hidden;
 	background-color: #f1f1f1;
@@ -52,8 +47,8 @@ header {
 	float: right;
   }
   
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 400px) {
+  /* Mobile Styles */
+  @media only screen and (max-width: 400px) {
 	.header a {
 	  float: none;
 	  display: block;
@@ -61,5 +56,12 @@ header {
 	}
 	.header-right {
 	  float: none;
+	}
+  }
+
+  @media only screen and (min-width: 961px) {
+	body {
+		width: 960px;
+		margin: 0 auto;
 	}
   }
