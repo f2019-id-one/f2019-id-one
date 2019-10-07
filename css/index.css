@@ -1,7 +1,6 @@
 /* Basic styling */
 * {
 	font: normal 1em Helvetica, sans-serif;
-	color: black;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -29,12 +28,13 @@ li {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 	padding: 2vw;
 }
 
 a:hover {
-	background-color: #C6E9FF;
+	background-color: white;
+	color: black;
 }
 
 @media only screen and (max-width: 500px) {
