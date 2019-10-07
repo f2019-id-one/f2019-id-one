@@ -1,6 +1,7 @@
 body {
 	background-color: white;
-	font: normal 1em 1.5em Helvetica, sans-serif;
+	font: normal 1em Helvetica, sans-serif;
+	color: black;
 }
 
 header {
