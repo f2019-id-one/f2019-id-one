@@ -28,9 +28,9 @@ To help gather information, the college's course info/homepage can be found here
 ## Webpage Features
 1. ### Header
     - Navigation
-        - GBC Logo (Link to Home Page)
+        - GBC Logo (link to actual homepage)
         - Search Icon 
-        - Drop Down Icon (Menu) Hidden in Mobile/Shown in Web
+        - Drop Down Menu hidden in mobile/shown to web
             - About GBC
             - Academics
             - Admissions
