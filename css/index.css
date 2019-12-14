@@ -4,22 +4,18 @@ html {
 	/* COLOURS */
 	--background-color: white;
 	--paragraph-color: black;
-	--orange-color: #EF702C;
-	--yelloworange-color: #F9A119;
-	--lavender-color: #C9A4CF;
-	--purple-color: #7977B9;
-	--lightblue-color: #72C7E6;
-	--blue-color: #159DDF;
-	--yellow-color: #FECC09;
-	--lightgreen-color: #9EC968;
-	--green-color: #06AE4C;
+	--orange-color: #FA6900;
+	--yelloworange-color: #F38630;
+	--lightblue-color: #A7DBD8;
+	--blue-color: #69D2E7;
+	--beach-color: #E0E4CC;
 	
 	/* TYPEFACES */
 	--font-variation: Helvetica, Arial, sans-serif;
 }
 
 body {
-	background-color: var(--background-color);
+	background-color: var(--blue-color);
 	color: var(--paragraph-color);
 	font: normal normal 1em/2em var(--font-variation);
 	margin: 0em;
@@ -31,7 +27,7 @@ p, li {
 }
 
 .article-one , .article-two , .article-three , .article-four, .article-five, .article-six {
-    background-color: var(--lightblue-color);
+    background-color: var(--background-color);
 	padding: 1.5em;
 }
 
@@ -47,7 +43,7 @@ a {
 
 .bar {
     text-decoration: none;
-    color: var(--lavender-color);
+    color: var(--orange-color);
     text-transform: uppercase;
 }
 
@@ -79,9 +75,10 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:var(--lavender-color);
+    background-color:var(--orange-color);
     min-width: 15em;
-    z-index: 1;
+	z-index: 1;
+	border-radius: 1em;
 }
 
 .dropdown-content a {
@@ -90,48 +87,37 @@ a {
     background-color: var(--background-color);
     padding: 1em 1em;
     text-decoration: none;
-    display: block;
+	display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: var(--green-color);
-    color: var(--yellow-color)
+    background-color: var(--orange-color);
+    color: var(--beach-color)
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-h1 {
-    font-size: 2em;
-    color: var(--lightgreen-color);
-    background-color: var(--blue-color);
-	width: 100%;
-	margin-top: 0;
-	margin-bottom: 0;
-    padding: 0.5em 0em 0.5em 0em;
-	font-family: var(--font-variation); 
-	float: center;
-    height: 5em;
-    width: auto;
-}
-
 h2 {
     margin-top: 0em;
 	margin-bottom: 0em;
 	text-align: center;
-    color: var(--background-color);
-    background-color: var(--green-color);
-    padding: 0.5em 0em 0.5em 0em;
+    color: var(--paragraph-color);
+    background-color: var(--yelloworange-color);
+	padding: 0.5em 0em 0.5em 0em;
+	border-radius: 1em;
+	margin-bottom: 2em;
 }
 
 h3 {
     font-weight: 900;
     text-transform: uppercase;
 	margin-top: 0em;
-	color: var(--yellow-color);
-	background-color: var(--purple-color);
+    background-color: var(--lightblue-color);
+    color: var(--paragraph);
 	padding: 0.5em 0em 0.5em 0em;
+	border-radius: 1em;
 }
 
 ul {
@@ -140,22 +126,26 @@ ul {
 }
 
 .article-two {
-    background-color: var(--lightgreen-color);
+    background-color: var(--background-color);
 }
 
 .article-two h2 {
-    color: var(--background-color);
-    background-color: var(--green-color);
-    padding: 0.5em 0em 0.5em 0em;
+    background-color: var(--lightblue-color);
+    color: var(--paragraph);
+	padding: 0.5em 0em 0.5em 0em;
+	border-radius: 1em;
+	text-transform: uppercase;
 }
 
 .article-three {
-    background: var(--lightblue-color);
+    background: var(--background-color);
     padding: 1em 0 1em 0;
 }
 
 .article-three h2 {
-    color: var(--yelloworange-color);
+	color: var(--paragraph-color);
+	text-transform: uppercase;
+	background: var(--lightblue-color);
 }
 
 img {
@@ -164,67 +154,72 @@ img {
 
 .grid-container-one{
     margin: 0;
-    background: var(--purple-color);
+    background: var(--orange-color);
 }
 
 .image-grid-one{
-    background: var(--purple-color);
+    background: var(--orange-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.article-four {
-    color: var(--green-color);
+.article-four h2 {
+    background-color: var(--lightblue-color);
+	color: var(--paragraph);
+	text-transform: uppercase;
 }
 
 .grid-container-career {
-    margin: auto;
+	margin: auto;
 }
 
 .grid-career {
-    background: var(--lightblue-color);
     display: grid;
     grid-gap: 0.5em;
-    grid-template-columns: 1fr;
+	grid-template-columns: 1fr;
 }
 
 .grid-career li {
-    background: var(--background-color);
-    color: var(--green-color);
+	background: var(--beach-color);
+    color: var(--orange-color);
     padding: 0.75em;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	border-radius: 1em;
 }
 
 .article-five {
-	background-color: var(--lightblue-color);
+	background-color: var(--background-color);
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 0.5em 0em 0.5em 0em;
 }
 
 .article-five h2 {
-    background-color: var(--green-color);
-    color: var(--background-color);
+    background-color: var(--lightblue-color);
+    color: var(--paragraph-color);
 	padding: 0.5em 0em 0.5em 0em;
+	border-radius: 1em;
+	text-transform: uppercase;
 }
 
 .article-six {
-	background-color: var(--lightblue-color);
+	background-color: var(--background-color);
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 0.5em 0em 0.5em 0em;
 }
 
 .article-six h2 {
-    background-color: var(--green-color);
-    color: var(--background-color);
-	padding: 1em 0 1em 0;
+    background-color: var(--lightblue-color);
+    color: var(--paragraph);
 	padding: 0.5em 0em 0.5em 0em;
+	border-radius: 1em;
+	text-transform: uppercase;
 }
 
 .grid-container-two {
-    border: var(--yellow-color) solid 10px;
-    background: var(--yellow-color);
+    border: var(--orange-color); solid 10px;
+    background-color: var(--orange-color);
 }
 
 .image-grid-two li {
@@ -238,8 +233,8 @@ img {
     grid-gap: 1em;
 }
 .grid-container-three {
-    border: var(--yellow-color) solid 10px;
-    background: var(--yellow-color);
+    border: var(--orange-color); solid 10px;
+    background-color: var(--orange-color);
 }
 
 .image-grid-three {
@@ -250,12 +245,12 @@ img {
 
 
 .image-grid-three a {
-	color: var(--background-color);
+    background-color: var(--orange-color);
 }
 
 .nav-bottom {
-    background-color: var(--yellow-color);
-    color: var(--background-color);
+    background-color: var(--orange-color);
+	color: var(--background-color);
 }
 
 a {
