@@ -35,6 +35,8 @@ a {
     display: block;
 }
 
+/* MENU */
+
 .nav-bar {
     width: 100%;
     background-color: var(--orange-color);
@@ -98,6 +100,8 @@ a {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
+/* ARTICLES: ONE, TWO, THREE, FOUR, FIVE, AND SIX */
 
 h2 {
     margin-top: 0em;
@@ -217,8 +221,10 @@ img {
 	text-transform: uppercase;
 }
 
+/* FOOTER */
+
 .grid-container-two {
-    border: var(--orange-color); solid 10px;
+    border: var(--orange-color) solid 10px;
     background-color: var(--orange-color);
 }
 
@@ -233,7 +239,7 @@ img {
     grid-gap: 1em;
 }
 .grid-container-three {
-    border: var(--orange-color); solid 10px;
+    border: var(--orange-color) solid 10px;
     background-color: var(--orange-color);
 }
 
@@ -242,7 +248,6 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 0.5em;
 }
-
 
 .image-grid-three a {
     background-color: var(--orange-color);
@@ -258,6 +263,7 @@ a {
 }
 
 /* DESKTOP USAGE */
+
 @media only screen and (min-width: 750px) {
     p , li {
         font-size: 1em
